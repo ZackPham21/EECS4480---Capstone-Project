@@ -1,0 +1,19 @@
+# virtual env
+venv/
+.env/
+pyvenv.cfg
+
+# data and outputs
+data/
+models/
+results/
+*.csv
+
+# notebook checkpoints and caches
+.ipynb_checkpoints/
+checkpoints/
+__pycache__/
+*.pyc
+
+# tokenizers / cache
+.cache/

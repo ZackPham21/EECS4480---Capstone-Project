@@ -5,7 +5,6 @@ pyvenv.cfg
 
 # data and outputs
 data/
-models/
 results/
 *.csv
 

@@ -16,3 +16,8 @@ __pycache__/
 
 # tokenizers / cache
 .cache/
+
+# Ignore model folders
+models/saved_model/
+models/saved_model_aug/
+

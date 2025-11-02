@@ -1,11 +1,28 @@
 {
-    "eval_loss": 0.02380935102701187,
-    "eval_model_preparation_time": 0.0024,
-    "eval_accuracy": 0.9957327175058989,
-    "eval_precision": 0.9957472660996355,
-    "eval_recall": 0.995646451351625,
-    "eval_f1": 0.9956968561737458,
-    "eval_runtime": 104.5922,
-    "eval_samples_per_second": 190.444,
-    "eval_steps_per_second": 23.807
+  "eval_samples": 39948,
+  "Ham": {
+    "precision": 0.9784307453274231,
+    "recall": 0.995536337006556,
+    "f1-score": 0.9869094261350542,
+    "support": 21507.0
+  },
+  "Phishing": {
+    "precision": 0.9946858566288403,
+    "recall": 0.9744048587386801,
+    "f1-score": 0.9844409138223854,
+    "support": 18441.0
+  },
+  "accuracy": 0.985781515970762,
+  "macro avg": {
+    "precision": 0.9865583009781318,
+    "recall": 0.984970597872618,
+    "f1-score": 0.9856751699787198,
+    "support": 39948.0
+  },
+  "weighted avg": {
+    "precision": 0.9859345129130203,
+    "recall": 0.985781515970762,
+    "f1-score": 0.9857698988606494,
+    "support": 39948.0
+  }
 }

@@ -6,7 +6,9 @@ pyvenv.cfg
 # data and outputs
 data/
 results/
-*.csv
+
+# only ignore CSV files from data folder
+data/*.csv
 
 # notebook checkpoints and caches
 .ipynb_checkpoints/

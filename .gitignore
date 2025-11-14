@@ -7,9 +7,6 @@ pyvenv.cfg
 data/
 results/
 
-# only ignore CSV files from data folder
-data/*.csv
-
 # notebook checkpoints and caches
 .ipynb_checkpoints/
 checkpoints/
@@ -20,6 +17,10 @@ __pycache__/
 .cache/
 
 # Ignore model folders
-models/saved_model/
-models/saved_model_aug/
+models/
 
+# Ignore analysis folder
+analysis/
+
+# Ignore credential 
+notebooks/credentials.json

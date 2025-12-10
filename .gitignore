@@ -24,3 +24,4 @@ analysis/
 
 # Ignore credential 
 notebooks/credentials.json
+notebooks/token.json

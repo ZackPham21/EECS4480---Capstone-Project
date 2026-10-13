@@ -11,7 +11,7 @@ The project is implemented in **Jupyter Notebooks** using **PyTorch**, **Hugging
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 ```
 EECS4480---Capstone-Project/
 ├── notebooks/
@@ -28,7 +28,7 @@ EECS4480---Capstone-Project/
 
 ---
 
-## 🚀 Features
+## Features
 
 - **BERT-based classifier** for phishing vs ham  
 - Supports multiple real-world datasets  
@@ -38,9 +38,9 @@ EECS4480---Capstone-Project/
 
 ---
 
-## 🛠️ Getting Started
+## Getting Started
 
-### 1️⃣ Clone the Repository
+### 1. Clone the Repository
 ```bash
 git clone https://github.com/ZackPham21/EECS4480---Capstone-Project.git
 cd EECS4480---Capstone-Project
@@ -48,7 +48,7 @@ cd EECS4480---Capstone-Project
 
 ---
 
-## 2️⃣ Create & Activate a Virtual Environment (Recommended)
+## 2. Create & Activate a Virtual Environment (Recommended)
 
 **macOS / Linux:**
 ```bash
@@ -64,7 +64,7 @@ python -m venv .venv
 
 ---
 
-## 3️⃣ Install Dependencies
+## 3. Install Dependencies
 ```bash
 pip install --upgrade pip
 pip install -r requirements.txt
@@ -72,7 +72,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📓 Running the Notebooks
+## Running the Notebooks
 ```bash
 jupyter lab
 # or
@@ -90,7 +90,7 @@ jupyter notebook
 
 ---
 
-## ✉️ Gmail API Setup
+## Gmail API Setup
 
 ### Step 1 — Enable Gmail API  
 - Open Google Cloud Console  
@@ -113,5 +113,5 @@ The notebook will generate `token.json` automatically after first login.
 
 ---
 
-## 📄 License
+## License
 This project is for academic use under EECS4480 Capstone guidelines.

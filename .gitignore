@@ -22,7 +22,9 @@ models/
 # Ignore analysis folder
 analysis/
 
-# Ignore credential 
+# Ignore credentials
+credentials.json
+token.json
 notebooks/credentials.json
 notebooks/token.json
 .DS_Store

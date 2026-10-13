@@ -25,3 +25,5 @@ analysis/
 # Ignore credential 
 notebooks/credentials.json
 notebooks/token.json
+.DS_Store
+.venv/
